@@ -90,11 +90,13 @@ body {
 			height: 50px;
 			background-color: grey;
 			color: white;
+			margin-right: 20px;
 		}
 		button:active {
 			border: 1px;
 		}
 		input {
+			padding-left: 20px;
 			font-size: 32px;
 			width: 200px;
 			font-weight: 600;
