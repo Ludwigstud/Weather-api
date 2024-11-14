@@ -3,7 +3,7 @@ let weather;
 async function fetchData(place) {
 	try {
 		const info = await fetch(
-			`http://api.weatherapi.com/v1/current.json?key=${key}&q=${place}&aqi=no`
+			`http://api.weatherapi.com/v1/current.json?key=35723c3740e440d0bce113200241311&q=${place}&aqi=no`
 		);
 
 		weather = await info.json();
